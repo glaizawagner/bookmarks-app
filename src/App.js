@@ -111,7 +111,7 @@ class App extends Component {
           <Route
             exact
             path='/'
-            render={ () =>
+            render={ (history) =>
               <BookmarkList bookmarks={bookmarks} />}
           />
         </div>
